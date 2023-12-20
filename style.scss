@@ -1,0 +1,80 @@
+$color1: #D0E7D2;
+$color2: #B0D9B1;
+$color3: #79AC78;
+$color4: #618264;
+
+$color5: #B9E0FF;
+$color6: #8D9EFF;
+$color7: #8D72E1;
+$color8: #6C4AB6;
+
+$color9: #F0ECE5;
+$color10: #B6BBC4;
+$color11: #31304D;
+$color12: #161A30;
+
+$color13: #ffffff;
+$color14: #B40000;
+
+
+$font1: 'Raleway', sans-serif;
+
+
+h1{
+    font: 32px 'Bold', $font1;
+    color: $color4;
+}
+
+h2{
+    font: 24px 'SemiBold', $font1;
+    color: $color8;
+}
+
+p{
+    font: 18px 'Regular', $font1;
+    color: $color12;
+}
+
+
+button{
+    background-color: $color7;
+    border-color: $color7;
+    border-radius: 10px;
+    color: $color13;
+
+    &:hover{
+        background-color: $color6;
+        border-color: $color7;
+        color: $color8;
+    }
+
+    &:active{
+        background-color: $color8;
+        border-color: $color7;
+        color: $color13;
+    }
+}
+
+
+input{
+    background-color: $color13;
+    border-color: $color11;
+    color: $color12;
+    border-radius: 10px;
+    border: 0.5px solid;
+
+    &:hover{
+        border-color: $color8;
+    }
+
+    &:active{
+        border-color: $color8;
+        border: 2px solid;
+    }
+
+    &.error{
+        border: 2px solid;
+        border-color: $color14;
+        color: $color14;
+    }
+}
